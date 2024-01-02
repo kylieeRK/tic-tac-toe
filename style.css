@@ -1,0 +1,25 @@
+body {
+    background-color: #a2e8a7;
+    border: rgb(146, 207, 246) 5px solid;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-size: 42px;
+    padding: 30px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
